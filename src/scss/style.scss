@@ -1,0 +1,12 @@
+$primery-color: #ff0066;
+
+.nav {
+    border: 1px solid $primery-color;
+    .link {
+        color: $primery-color;
+        &:hover {
+            background-color: $primery-color;
+            color: #ffffff;
+        }
+    }
+}
