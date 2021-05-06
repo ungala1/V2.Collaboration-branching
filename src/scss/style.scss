@@ -1,4 +1,7 @@
 $primery-color: #ff0066;
+$secondary-color: #771133;
+$white:#ffffff;
+
 
 .nav {
     border: 1px solid $primery-color;
@@ -6,7 +9,31 @@ $primery-color: #ff0066;
         color: $primery-color;
         &:hover {
             background-color: $primery-color;
-            color: #ffffff;
+            color: $white ;
         }
+    }
+}
+
+
+.footer {
+    background-color: $secondary-color;
+    color: $white;
+
+ 
+    .title {
+        font-size: 18px;
+        color: red;
+    }
+ 
+    .link {
+        color: $white;
+ 
+            &:hover {
+                color: rgba($white, 0.5);
+            }
+    }
+ 
+    .copyright {
+        font-size: 12px;
     }
 }
