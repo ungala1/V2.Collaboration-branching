@@ -21,8 +21,8 @@ $white:#ffffff;
 
  
     .title {
-        font-size: 18px;
-        color: red;
+        font-size: 12px;
+        
     }
  
     .link {
@@ -35,5 +35,28 @@ $white:#ffffff;
  
     .copyright {
         font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .title {
+        font-size: 14px;
+    }
+    
+}
+@media screen and (min-width: 480px) {
+    .title {
+        font-size: 20px;
+    }
+    
+}  
+@media screen and (min-width: 800px) {
+    .title {
+        font-size: 24px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .title {
+        font-size: 32px;
     }
 }
